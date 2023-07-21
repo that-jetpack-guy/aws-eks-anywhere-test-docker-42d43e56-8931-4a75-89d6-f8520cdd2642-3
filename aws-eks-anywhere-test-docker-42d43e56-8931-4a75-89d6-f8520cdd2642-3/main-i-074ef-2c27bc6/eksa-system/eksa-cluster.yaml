@@ -6,7 +6,7 @@ metadata:
 spec:
   bundlesRef:
     apiVersion: anywhere.eks.amazonaws.com/v1alpha1
-    name: bundles-7335
+    name: bundles-7337
     namespace: eksa-system
   clusterNetwork:
     cniConfig:
@@ -31,7 +31,7 @@ spec:
   managementCluster:
     name: main-i-074ef-2c27bc6
   workerNodeGroupConfigurations:
-  - count: 1
+  - count: 3
     name: md-0
 
 ---
